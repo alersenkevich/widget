@@ -1,0 +1,44 @@
+{
+  "name": "widget-pure-canvas",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack",
+    "devserver": "webpack-dev-server --debug --hot --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.kassy.ru/aler/widget-pure-canvas.git"
+  },
+  "author": "Aler Senkevich",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.9.0",
+    "eslint-config-atomix-base": "^4.4.0",
+    "gzip-loader": "0.0.1",
+    "json-loader": "^0.5.7",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "moment": "^2.19.2",
+    "toastr": "^2.1.2",
+    "uuid": "^3.1.0",
+    "uuid-v4": "^0.1.0"
+  }
+}
