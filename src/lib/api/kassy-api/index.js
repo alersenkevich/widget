@@ -5,7 +5,7 @@ import apiConfig from './config'
 
 class KassyApi {
   constructor(initialConfig) {
-    this.config = { ...initialConfig, url: 'https://api.kassy.ru/v3/', secret_key: 'a619d974658f3e749b2d88b215baea46' }
+    this.config = { ...initialConfig  }
   }
 
   async request(url, config) {
